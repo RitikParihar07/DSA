@@ -31,7 +31,7 @@ int pop(int stack[], int* top) {
     int temp;
     if (empty(stack, *top)) {
         printf("Underflow");
-        return -1; // Return a sentinel value to indicate an error
+        return -1; 
     } else {
         temp = stack[(*top)--];
     }
@@ -45,7 +45,7 @@ int prio(char op) {
         case '*': return 2;
         case '/': return 2;
     }
-    return 0; // Return 0 for other characters (operands)
+    return 0; 
 }
 
 int main() {
