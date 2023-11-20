@@ -1,8 +1,9 @@
 /******************************************************************************
 
-Given a singly linked list and a key, count the number of occurrences of the given key in the 
-linked list. For example, if the given linked list is 1->2->1->2->1->3->1 and the given key is 1, 
-then the output should be 4
+Singly linked list all function 
+1.Insert at first and last.
+2.Delete from first and last.
+3.Display function.
 
 *******************************************************************************/
 
